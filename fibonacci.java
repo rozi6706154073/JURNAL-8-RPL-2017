@@ -18,13 +18,13 @@ public class Fibonacci{
     
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
-        System.out.print("Maukkan N: \t");
+        System.out.print("Maukkan Nilai: \t");
         int N=input.nextInt();
         if (N>=1){
              Fib(N);
         }
         else{
-            System.out.println("N harus lebih besar dari 1                                  !!!");
+            System.out.println("Nilai harus lebih besar dari 1                                  !!!");
         }
     }
     
